@@ -3,7 +3,7 @@
   "version": "1.0.1",
   "description": "An Insomnia plugin to retrieve aws credentials for use with IAM authentication",
   "main": "index.js",
-  "repository": "https://github.com/dankelleher/insomnia-plugin-aws-iam",
+  "repository": "https://github.com/PrasannaC/insomnia-plugin-aws-iam",
   "insomnia": {
     "name": "aws-iam"
   },
@@ -11,7 +11,7 @@
     "tsc": "tsc"
   },
   "keywords": ["insomnia", "aws", "iam"],
-  "author": "Daniel Kelleher",
+  "author": "Prasann Choudhari",
   "license": "ISC",
   "dependencies": {
     "awscred": "^1.5.0"
