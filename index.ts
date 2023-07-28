@@ -11,8 +11,8 @@ enum Attribute {
 
 export const templateTags = [
     {
-        name: 'awsiam',
-        displayName: 'awsiam',
+        name: 'awscreds',
+        displayName: 'awscreds',
         description: 'Insomnia plugin - AWS IAM credential loader',
         args: [{
             displayName: 'Attribute',
