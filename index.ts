@@ -5,7 +5,8 @@ const loadAwsCred = promisify(awscred.load);
 
 enum Attribute {
     accessKeyId = 'accessKeyId',
-    secretAccessKey = 'secretAccessKey'
+    secretAccessKey = 'secretAccessKey',
+    sessionToken = 'sessionToken',
 }
 
 export const templateTags = [
@@ -25,6 +26,10 @@ export const templateTags = [
                     displayName: Attribute.secretAccessKey,
                     value: Attribute.secretAccessKey,
                 },
+                {
+                    displayName: Attribute.sessionToken,
+                    value: Attribute.sessionToken,
+                }
             ]
         }],
         async run(context: object, attribute: Attribute) {
